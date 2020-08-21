@@ -1,46 +1,46 @@
 export default {
-    products: [
-      {
-        _id: '1',
-        name: 'Slim Shirt',
-        category: 'Shirts',
+    products:[
+    {
+        name: 'Half Silk',
+        category:'Silk',
         image: '/images/d1.jpg',
-        price: 60,
-        brand: ' Nike',
+        price: 1200,
+        brand: 'Arong',
         rating: 4.5,
-        numReviews: 10,
-        countInStock: 6,
-      },
-      {
-        _id: '2',
-        name: 'Fit Shirt',
-        category: 'Shirts',
+        numReviews:5
+
+    },
+    {
+        name: 'Full Silk',
+        category:'Silk',
         image: '/images/d1.jpg',
-        price: 50,
-        brand: ' Nike',
-        rating: 4.2,
-        numReviews: 5
-      },
-      {
-        _id: '3',
-        name: 'Best Pants',
-        category: 'Pants',
-        image: '/images/d1.jpg',
-        price: 70,
-        brand: ' Nike',
+        price: 1400,
+        brand: 'Arong',
         rating: 4.5,
-        numReviews: 8,
-        countInStock: 6,
-      }, {
-        _id: '4',
-        name: 'Best Pants',
-        category: 'Pants',
+        numReviews:7
+
+    },
+    {
+        name: 'Jamdani',
+        category:'Jamdani',
         image: '/images/d1.jpg',
-        price: 70,
-        brand: ' Nike',
+        price: 1300,
+        brand: 'Arong',
         rating: 4.5,
-        numReviews: 8,
-        countInStock: 6,
-      },
-    ]
-  }
+        numReviews:6
+
+    },
+    {
+        name: 'Jamdani',
+        category:'Jamdani',
+        image: '/images/d1.jpg',
+        price: 1300,
+        brand: 'Arong',
+        rating: 4.5,
+        numReviews:6
+
+    },
+
+
+]
+}
