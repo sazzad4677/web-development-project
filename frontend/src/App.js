@@ -3,6 +3,8 @@ import {BrowserRouter, Route, Link} from 'react-router-dom'
 import './App.css';
 import HomeScreen from './screens/HomeScreen';
 import ProductScreen from './screens/ProductScreen';
+import CartScreen from './screens/CartScreen';
+
 function App() {
   const openMenu = () => {
     document.querySelector(".sidebar").classList.add("open");
@@ -18,7 +20,7 @@ function App() {
         <button onClick={openMenu}>
           &#9776;
         </button>
-        <Link to="/">amazona</Link>
+        <Link to="/">Tangail Saree</Link>
       </div>
       <div className="header-links">
         <a href="cart.html">Cart</a>
@@ -30,11 +32,11 @@ function App() {
       <button className="sidebar-close-button" onClick={closeMenu}>x</button>
       <ul>
         <li>
-          <a href="index.html">Pants</a>
+          <a href="index.html">Tant Saree</a>
         </li>
 
         <li>
-          <a href="index.html">Shirts</a>
+          <a href="index.html">Jamdani Saree</a>
         </li>
 
       </ul>
@@ -42,7 +44,8 @@ function App() {
     <main className="main">
       <div className="content">
       <Route path="/product/:id" component = {ProductScreen} />
-        <Route path="/" exact={true} component = {HomeScreen} />
+      <Route path="/cart/:id?" component ={CartScreen}/>
+      <Route path="/" exact={true} component = {HomeScreen} />
         
       </div>
 
