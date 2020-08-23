@@ -30,7 +30,7 @@ export default {
         brand: ' Aroong',
         rating: 4.5,
         numReviews: 8,
-        countInStock: 3,
+        countInStock: 5,
       }, {
         _id: '4',
         name: 'Jamdani Saree',
