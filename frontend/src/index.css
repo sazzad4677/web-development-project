@@ -223,10 +223,10 @@ a > .rating > span:last-child {
   border: 0.1rem #404040 solid;
 }
 .button.primary {
-  background-color: #f0c040;
+  background-color: #00ffff;
 }
 .button.secondary {
-  background-color: #f0f0f0;
+  background-color: #01ffc8;
 }
 .text-center {
   text-align: center;
@@ -284,7 +284,7 @@ a > .rating > span:last-child {
 
 /* forms */
 
-.form {
+form {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -293,6 +293,7 @@ a > .rating > span:last-child {
 .form-container {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   width: 32rem;
   padding: 2rem;
   border: 0.1rem #c0c0c0 solid;
